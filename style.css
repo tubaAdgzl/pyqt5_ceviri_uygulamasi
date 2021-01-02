@@ -1,0 +1,44 @@
+QMainWindow::selection{
+    background-color: orange;
+}
+#centralwidget{
+    background-color: #000;
+}
+QPushButton{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color:orangered;
+    color: #fff;
+    border-radius: 6px;
+}
+QPushButton:hover{
+    background-color:#d12c03;
+}
+QLabel{
+    border:none;
+    font-size: 18px;
+    color:#fff;
+}
+QLineEdit{
+    background-color:#000;
+    border:none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom:2px solid orangered;
+}
+QLineEdit:focus{
+    border-bottom: 2px solid orange;
+}
+QRadioButton{
+    background-color: orangered;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+QRadioButton:hover{
+    background-color:rgb(196, 57, 7);
+}
+QRadioButton:focus{
+    background-color: orange;
+}
