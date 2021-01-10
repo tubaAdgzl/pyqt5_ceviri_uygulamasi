@@ -20,14 +20,14 @@ QLabel{
     font-size: 18px;
     color:#fff;
 }
-QLineEdit{
+QTextEdit{
     background-color:#000;
     border:none;
     color: #fff;
     font-size: 18px;
     border-bottom:2px solid orangered;
 }
-QLineEdit:focus{
+QTextEdit:focus{
     border-bottom: 2px solid orange;
 }
 QRadioButton{
